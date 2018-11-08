@@ -275,4 +275,17 @@ h2 {
     0%, 100% { transform: translateX(-50%); }
     50%      { transform: translateX(150%); }
 }
+
+/*Nav*/
+#down-arrow-container {
+    width: inherit;
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+}
 }
